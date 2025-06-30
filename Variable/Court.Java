@@ -1,0 +1,87 @@
+class Court {
+    static String courtName ;
+    static String location ;
+    static String courtType;
+    static String jurisdiction ;
+    static String chiefJustice ;
+    static int noOfJudges ;
+    static int noOfCourtRooms ;
+    static int noOfClerks ;
+    static int noOfPendingCases ;
+    static int yearEstablished ;
+    static boolean hasLibrary ;
+    static boolean hasDigitalFiling ;
+    static boolean hasCCTV ;
+    static boolean hasPublicGallery ;
+    static boolean hasLegalAidCell ;
+    static String workingHours;
+    static boolean isOpenOnSaturday ;
+    static boolean hasParkingFacility ;
+    static String officialWebsite ;
+    static String contactEmail ;
+
+    public static void main(String[] args) {
+        System.out.println("Court Name: " + courtName);
+        System.out.println("Location: " + location);
+        System.out.println("Court Type: " + courtType);
+        System.out.println("Jurisdiction: " + jurisdiction);
+        System.out.println("Chief Justice: " + chiefJustice);
+        System.out.println("Number of Judges: " + noOfJudges);
+        System.out.println("Number of Courtrooms: " + noOfCourtRooms);
+        System.out.println("Number of Clerks: " + noOfClerks);
+        System.out.println("Number of Pending Cases: " + noOfPendingCases);
+        System.out.println("Year Established: " + yearEstablished);
+        System.out.println("Has Library: " + hasLibrary);
+        System.out.println("Has Digital Filing: " + hasDigitalFiling);
+        System.out.println("Has CCTV: " + hasCCTV);
+        System.out.println("Has Public Gallery: " + hasPublicGallery);
+        System.out.println("Has Legal Aid Cell: " + hasLegalAidCell);
+        System.out.println("Working Hours: " + workingHours);
+        System.out.println("Open on Saturday: " + isOpenOnSaturday);
+        System.out.println("Has Parking Facility: " + hasParkingFacility);
+        System.out.println("Official Website: " + officialWebsite);
+        System.out.println("Contact Email: " + contactEmail);
+		
+	 courtName = "High Court of Karnataka";
+     location = "Bangalore, Karnataka";
+    courtType = "High Court";
+    jurisdiction = "State of Karnataka";
+    chiefJustice = "Prasanna B. Varale";
+     noOfJudges = 35;
+     noOfCourtRooms = 20;
+     noOfClerks = 50;
+     noOfPendingCases = 55000;
+     yearEstablished = 1884;
+     hasLibrary = true;
+    hasDigitalFiling = true;
+     hasCCTV = true;
+     hasPublicGallery = true;
+     hasLegalAidCell = true;
+    workingHours = "10:30 AM - 4:30 PM";
+     isOpenOnSaturday = false;
+     hasParkingFacility = true;
+     String officialWebsite = "https://karnatakajudiciary.kar.nic.in/";
+     String contactEmail = "registrar@kar.nic.in";
+	 
+	 System.out.println("Court Name: " + courtName);
+        System.out.println("Location: " + location);
+        System.out.println("Court Type: " + courtType);
+        System.out.println("Jurisdiction: " + jurisdiction);
+        System.out.println("Chief Justice: " + chiefJustice);
+        System.out.println("Number of Judges: " + noOfJudges);
+        System.out.println("Number of Courtrooms: " + noOfCourtRooms);
+        System.out.println("Number of Clerks: " + noOfClerks);
+        System.out.println("Number of Pending Cases: " + noOfPendingCases);
+        System.out.println("Year Established: " + yearEstablished);
+        System.out.println("Has Library: " + hasLibrary);
+        System.out.println("Has Digital Filing: " + hasDigitalFiling);
+        System.out.println("Has CCTV: " + hasCCTV);
+        System.out.println("Has Public Gallery: " + hasPublicGallery);
+        System.out.println("Has Legal Aid Cell: " + hasLegalAidCell);
+        System.out.println("Working Hours: " + workingHours);
+        System.out.println("Open on Saturday: " + isOpenOnSaturday);
+        System.out.println("Has Parking Facility: " + hasParkingFacility);
+        System.out.println("Official Website: " + officialWebsite);
+        System.out.println("Contact Email: " + contactEmail);
+    }
+}
