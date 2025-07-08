@@ -3,7 +3,8 @@ class BankAccount{
 		System.out.println("Credit started: ");
 		//boolean var=cred>0.0;
 		//if(var)
-		if(cred>0.0){
+		boolean check=cred>0.0;
+		if(check){
 		balance=balance+cred;
 		System.out.println("The balance is :"+balance);
 		}
@@ -15,9 +16,16 @@ class BankAccount{
 	
 	public static void debit(double debt,double balance){
 		System.out.println("Debit started: ");
+	    boolean check=debt<balance;
+		if(check){
 		balance=balance-debt;
 		System.out.println("The balance is :"+balance);
+		}
+		else{
+			System.out.println("The balance is not sufficient to debit");
+		}
 		System.out.println("Debit ended: ");
+
 	}
 }
 	
