@@ -5,6 +5,7 @@ class BankAccountRunner{
 		double balance=1000.00;
 		double cred;
 		double debt;
+		boolean check;
 		
 		BankAccount.credit(0.0,1000.0);
 		

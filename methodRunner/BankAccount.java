@@ -1,5 +1,5 @@
 class BankAccount{
-	public static void credit(double cred,double balance){
+	public static boolean credit(double cred,double balance){
 		System.out.println("Credit started: ");
 		//boolean var=cred>0.0;
 		//if(var)
@@ -12,9 +12,11 @@ class BankAccount{
 		System.out.println("Amount will be greater than 0");
 		}
 		System.out.println("Credit ended: ");
+		return check;
 	}
 	
-	public static void debit(double debt,double balance){
+	
+	public static double debit(double debt,double balance){
 		System.out.println("Debit started: ");
 	    boolean check=debt<balance;
 		if(check){
@@ -25,7 +27,7 @@ class BankAccount{
 			System.out.println("The balance is not sufficient to debit");
 		}
 		System.out.println("Debit ended: ");
-
+		return balance;
 	}
 }
 	
