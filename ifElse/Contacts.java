@@ -1,56 +1,106 @@
 class Contacts {
-    public static void order(String mob) {
+    public static String order(String mob) {
         String phone = null;
-        if (mob == "Amma")
+        if (mob == "Amma"){
             phone = "9481174030";
-        else if (mob == "Abhi")
+			return phone;
+		}	
+        else if (mob == "Abhi"){
             phone= "7204242702";
-        else if (mob == "Amma")
+			return phone;
+		}
+        else if (mob == "Amma"){
             phone= "6360657324";
-        else if (mob == "Akshata")
+			return phone;
+		}
+        else if (mob == "Akshata"){
             phone = "6364025379";
-        else if (mob == "Ammu akka")
+			return phone;
+		}
+        else if (mob == "Ammu akka"){
             phone = "7483958037";
-        else if (mob == "Anu Chikkamma")
+			return phone;
+		}
+        else if (mob == "Anu Chikkamma"){
             phone = "9481972293";
-        else if (mob == "Appu akka")
+			return phone;
+		}
+        else if (mob == "Appu akka"){
             phone = "9901009722";
-        else if (mob == "Arun Anna")
+			return phone;
+		}
+        else if (mob == "Arun Anna"){
             phone = "8672808726";
-        else if (mob == "Ashwini akka")
+			return phone;
+		}
+        else if (mob == "Ashwini akka"){
            phone= "7022478047";
-        else if (mob == "Balehonnur mami")
+		   return phone;
+		}
+        else if (mob =="Balehonnur mami"){
            phone = "9448546356";
-        else if (mob == "Balu anna")
+		   return phone;
+		}
+        else if (mob =="Balu anna"){
             phone = "7795274786";
-        else if (mob == "Chandana")
+			return phone;
+		}
+        else if (mob =="Chandana"){
             phone= "9017899878";
-        else if (mob == "Divya Akka")
+			return phone;
+		}
+        else if (mob == "Divya Akka"){
             phone = "8909786756";
-        else if (mob == "Dodamma")
+			return phone;
+		}
+        else if (mob == "Dodamma"){
             phone = "9590786756";
-        else if (mob == "Dhanya")
+			return phone;
+		}
+        else if (mob == "Dhanya"){
             phone = "8987879100";
-        else if (mob == "Eshwar anna")
+			return phone;
+		}
+        else if (mob == "Eshwar anna"){
             phone = "9089670878";
-        else if (mob == "Eshwari")
+			return phone;
+		}
+        else if (mob == "Eshwari"){
             phone = "9786745167";
-        else if (mob == "Getha")
+			return phone;
+		}
+        else if (mob == "Getha"){
            phone = "7878784534";
-        else if (mob == "Harshi")
+		   return phone;
+		}
+        else if (mob == "Harshi"){
             phone = "9445789140";
-        else if (mob == "Harish Anna")
+			return phone;
+		}
+        else if (mob == "Harish Anna"){
             phone= "78756456743";
-        else if (mob == "jaya")
+			return phone;
+		}
+        else if (mob == "jaya"){
            phone = "9774453456";
-        else if (mob == "keshav")
+		   return phone;
+		}
+        else if (mob == "keshav"){
             phone= "987567567";
-        else if (mob == "laxmi")
+			return phone;
+		}
+        else if (mob == "laxmi"){
             phone = "9886789250";
-        else if (mob == "manasa akk")
+			return phone;
+		}
+        else if (mob == "manasa akka"){
             phone = "9086784567";
-        else if (mob == "manju")
+			return phone;
+		}
+        else if (mob == "manju"){
             phone = "9056789789";
+			return phone;
+		}
         else if (mob == "manjula aunty")
             phone = "8967569800";
         else if (mob == "nitya")
@@ -95,5 +145,6 @@ class Contacts {
             System.out.println();
 
         System.out.println("Name: " + mob+ "Phone no:-"+phone);
+		return phone;
     }
 }
