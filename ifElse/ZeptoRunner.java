@@ -1,9 +1,9 @@
 public class ZeptoRunner {
     public static void main(String[] args) {
-        Zepto.order("Apple");
-        Zepto.order("Jamun");
-        Zepto.order("Tender Coconut");
-        Zepto.order("Blueberry");
-        Zepto.order("Tomato");
+		String fruit="Apple";
+        String price=Zepto.order(fruit);
+        System.out.println("Price: " + price);
+
+        System.out.println("Fruit: " + fruit);
     }
 }

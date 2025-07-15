@@ -1,70 +1,129 @@
 class Zomato {
-    public static void order(String sweet) {
+    public static int order(String sweet) {
         int price = 0;
-        if (sweet == "Gulab Jamun")
+        if (sweet == "Gulab Jamun"){
             price = 25;
-        else if (sweet == "Rasgulla")
+			return price;
+		}
+        else if (sweet == "Rasgulla"){
             price = 20;
-        else if (sweet == "Ladoo")
+			return price;
+		}
+        else if (sweet == "Ladoo"){
             price = 15;
-        else if (sweet == "Kaju Katli")
+			return price;
+		}
+        else if (sweet == "Kaju Katli"){
             price = 80;
-        else if (sweet == "Barfi")
+			return price;
+		}
+        else if (sweet == "Barfi"){
             price = 60;
-        else if (sweet == "Jalebi")
+			return price;
+		}
+        else if (sweet == "Jalebi"){
             price = 30;
-        else if (sweet == "Halwa")
+			return price;
+		}
+        else if (sweet == "Halwa"){
             price = 45;
-        else if (sweet == "Peda")
+			return price;
+		}
+        else if (sweet == "Peda"){
             price = 12;
+			return price;
+		}
         else if (sweet == "Mysore Pak")
             price = 70;
-        else if (sweet == "Imarti")
+        else if (sweet == "Imarti"){
             price = 25;
-        else if (sweet == "Soan Papdi")
+			return price;
+		}
+        else if (sweet == "Soan Papdi"){
             price = 55;
-        else if (sweet == "Cham Cham")
+			return price;
+		}
+        else if (sweet == "Cham Cham"){
             price = 22;
-        else if (sweet == "Malpua")
+			return price;
+		}
+        else if (sweet == "Malpua"){
             price = 40;
-        else if (sweet == "Kalakand")
+			return price;
+		}
+        else if (sweet == "Kalakand"){
             price = 60;
-        else if (sweet == "Milk Cake")
+			return price;
+		}
+        else if (sweet == "Milk Cake"){
             price = 75;
-        else if (sweet == "Besan Ladoo")
+			return price;
+		}
+        else if (sweet == "Besan Ladoo"){
             price = 50;
-        else if (sweet == "Chocolate Barfi")
+			return price;
+		}
+        else if (sweet == "Chocolate Barfi"){
             price = 85;
-        else if (sweet == "Coconut Ladoo")
+			return price;
+		}
+        else if (sweet == "Coconut Ladoo"){
             price = 20;
-        else if (sweet == "Moong Dal Halwa")
+			return price;
+		}
+        else if (sweet == "Moong Dal Halwa"){
             price = 90;
-        else if (sweet == "Ghevar")
+			return price;
+		}
+        else if (sweet == "Ghevar"){
             price = 120;
-        else if (sweet == "Til Ladoo")
+			return price;
+		}
+        else if (sweet == "Til Ladoo"){
             price = 18;
-        else if (sweet == "Anjeer Barfi")
+			return price;
+		}
+        else if (sweet == "Anjeer Barfi"){
             price = 100;
-        else if (sweet == "Badam Katli")
+			return price;
+		}
+        else if (sweet == "Badam Katli"){
             price = 95;
-        else if (sweet == "Rasmalai")
+			return price;
+		}
+        else if (sweet == "Rasmalai"){
             price = 45;
-        else if (sweet == "Kheer")
+			return price;
+		}
+        else if (sweet == "Kheer"){
             price = 50;
-        else if (sweet == "Fruit Custard")
+			return price;
+		}
+        else if (sweet == "Fruit Custard"){
             price = 60;
-        else if (sweet == "Shahi Tukda")
+			return price;
+		}
+        else if (sweet == "Shahi Tukda"){
             price = 70;
-        else if (sweet == "Rabri")
+			return price;
+		}
+        else if (sweet == "Rabri"){
             price = 65;
-        else if (sweet == "Kesari")
+			return price;
+		}
+        else if (sweet == "Kesari"){
             price = 55;
-        else if (sweet == "Patishapta")
+			return price;
+		}
+        else if (sweet == "Patishapta"){
             price = 80;
+			return price;
+		}
 
         else
             System.out.println("Price: " + price);
 
         System.out.println("Sweet: " + sweet +" Price: "+price);
+	return price;
     }
 }

@@ -1,70 +1,130 @@
 class JustMyRoots {
-    public static void order(String dish) {
+    public static String order(String dish) {
         String price = null;
-        if (dish == "Rajma Chawal")
+        if (dish == "Rajma Chawal"){
             price = "130";
-        else if (dish == "kadabu")
+			return price;
+		}
+        else if (dish == "kadabu"){
             price = "90";
-        else if (dish == "pathrode")
+			return price;
+		}
+        else if (dish == "pathrode"){
             price = "120";
-        else if (dish == "Kadhi Pakora")
+			return price;
+		}
+        else if (dish == "Kadhi Pakora"){
             price = "110";
-        else if (dish == "Chole Bhature")
+			return price;
+		}
+        else if (dish == "Chole Bhature"){
             price = "150";
-        else if (dish == "Vegetable Pulao")
+			return price;
+		}
+        else if (dish == "Vegetable Pulao"){
             price = "100";
-        else if (dish == "Masoor Dal")
+			return price;
+		}
+        else if (dish == "Masoor Dal"){
             price = "95";
-        else if (dish == "Palak Paneer")
+			return price;
+		}
+        else if (dish == "Palak Paneer"){
             price = "160";
-        else if (dish == "Methi Thepla")
+			return price;
+		}
+        else if (dish == "Methi Thepla"){
             price = "85";
-        else if (dish == "Dhokla")
+			return price;
+		}
+        else if (dish == "Dhokla"){
             price = "70";
-        else if (dish == "Sambar Rice")
+			return price;
+		}
+        else if (dish == "Sambar Rice"){
             price = "110";
-        else if (dish == "Idli Sambar")
+			return price;
+		}
+        else if (dish == "Idli Sambar"){
             price = "90";
-        else if (dish == "Vada Sambar")
+			return price;
+		}
+        else if (dish == "Vada Sambar"){
             price = "100";
-        else if (dish == "Pongal")
+			return price;
+		}
+        else if (dish == "Pongal"){
             price = "95";
-        else if (dish == "Poori Aloo")
+			return price;
+		}
+        else if (dish == "Poori Aloo"){
             price = "100";
-        else if (dish == "Khichdi")
+			return price;
+		}
+        else if (dish == "Khichdi"){
             price = "90";
-        else if (dish == "Bhindi Masala")
+			return price;
+		}
+        else if (dish == "Bhindi Masala"){
             price = "110";
-        else if (dish == "Gatte Ki Sabzi")
+			return price;
+		}
+        else if (dish == "Gatte Ki Sabzi"){
             price = "120";
-        else if (dish == "Litti Chokha")
+			return price;
+		}
+        else if (dish == "Litti Chokha"){
             price = "140";
-        else if (dish == "Fish Curry")
+			return price;
+		}
+        else if (dish == "Fish Curry"){
             price = "180";
-        else if (dish == "Chicken Curry")
+			return price;
+		}
+        else if (dish == "Chicken Curry"){
             price = "190";
-        else if (dish == "Egg Curry")
+			return price;
+		}
+        else if (dish == "Egg Curry"){
             price = "150";
-        else if (dish == "Mutton Curry")
+			return price;
+		}
+        else if (dish == "Mutton Curry"){
             price = "250";
-        else if (dish == "Paneer Tikka")
+			return price;
+		}
+        else if (dish == "Paneer Tikka"){
             price = "160";
-        else if (dish == "Stuffed Capsicum")
+			return price;
+		}
+        else if (dish == "Stuffed Capsicum"){
             price = "130";
-        else if (dish == "Bottle Gourd Curry")
+			return price;
+		}
+        else if (dish == "Bottle Gourd Curry"){
             price = "100";
-        else if (dish == "Tomato Rasam")
+			return price;
+		}
+        else if (dish == "Tomato Rasam"){
             price = "80";
-        else if (dish == "Beetroot Poriyal")
+			return price;
+		}
+        else if (dish == "Beetroot Poriyal"){
             price = "90";
-        else if (dish == "Cabbage Thoran")
+			return price;
+		}
+        else if (dish == "Cabbage Thoran"){
             price = "85";
-        else if (dish == "Kosha Mangsho")
-            price = "260";
-
+			return price;
+		}
+        else if (dish == "Kosha Mangsho"){
+			price="78";
+			return price;
+		}
         else
             System.out.println("Price: " + price);
 
         System.out.println("Dish: " + dish);
+		return price;
     }
 }

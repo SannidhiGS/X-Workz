@@ -1,8 +1,7 @@
 public class ZomatoRunner {
     public static void main(String[] args) {
-        Zomato.order("Gulab Jamun");
-        Zomato.order("Rasgulla");
-        Zomato.order("Mysore Pak");
-        Zomato.order("Patishapta");
+		String dish="Gulab Jamun";
+        int price=Zomato.order(dish);
+        System.out.println("Sweet: " + dish +" Price: "+price);
 }
 }
