@@ -3,9 +3,9 @@ class CourtCaseRunner {
     public static void main(String[] args) {
         System.out.println("Main Started - Court Case Information Display");
 
-        // Case 1: Property Dispute (Civil)
+        
         CourtCase case1 = new CourtCase();
-        case1.caseId = "OS/123/2023"; // Original Suit
+        case1.caseId = "OS/123/2023"; 
         case1.caseType = "Civil - Property Dispute";
         case1.courtName = "City Civil and Sessions Court, Bengaluru";
         case1.petitionerPlaintiff = "Mr. Raghavendra Rao";
@@ -78,9 +78,9 @@ class CourtCaseRunner {
         System.out.println("Presiding Judge: " + case3.presidingJudge);
         System.out.println();
 
-        // Case 4: Public Interest Litigation (PIL)
+        
         CourtCase case4 = new CourtCase();
-        case4.caseId = "WP(PIL)/50/2024"; // Writ Petition (Public Interest Litigation)
+        case4.caseId = "WP(PIL)/50/2024"; 
         case4.caseType = "PIL - Environmental Protection";
         case4.courtName = "High Court of Karnataka, Principal Bench, Bengaluru";
         case4.petitionerPlaintiff = "Citizens for Clean Air Trust";

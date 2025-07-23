@@ -1,5 +1,5 @@
 class ForestSafari {
-    String locationName; // e.g., Bandipur, Nagarhole
+    String locationName; 
     String state;
     double areaSqKm;
     int numberOfJeeps;

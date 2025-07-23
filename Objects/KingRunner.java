@@ -5,8 +5,8 @@ class KingRunner {
         King king1 = new King();
         king1.name = "Ashoka The Great";
         king1.kingdom = "Mauryan Empire";
-        king1.reignStartYear = -268;
-        king1.reignEndYear = -232;
+        king1.reignStartYear = 1268;
+        king1.reignEndYear = 1232;
         king1.notableAchievement = "Spread of Buddhism, Kalinga War";
         king1.capitalCity = "Pataliputra";
         king1.dynasty = "Maurya";

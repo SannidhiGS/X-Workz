@@ -5,7 +5,7 @@ class Politician {
     String constituency;
     int age;
     String education;
-    String position; // e.g., MLA, MP, Minister, Former CM
+    String position; 
     boolean isInPower;
     String hometown;
 }

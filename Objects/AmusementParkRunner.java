@@ -38,7 +38,7 @@ class AmusementParkRunner {
         park3.areaAcres = 64.0;
         park3.numberOfRides = 30;
         park3.ticketPriceAdult = 999.00;
-        park3.hasWaterParkSection = false; // Separate Water Kingdom
+        park3.hasWaterParkSection = false; 
         System.out.println("Name: " + park3.name);
         System.out.println("Location: " + park3.locationCity);
         System.out.println("Area (Acres): " + park3.areaAcres);
@@ -65,8 +65,8 @@ class AmusementParkRunner {
         AmusementPark park5 = new AmusementPark();
         park5.name = "Ramoji Film City";
         park5.locationCity = "Hyderabad";
-        park5.areaAcres = 2000.0; // Much larger, includes film sets
-        park5.numberOfRides = 15; // Fewer traditional rides
+        park5.areaAcres = 2000.0;
+        park5.numberOfRides = 15; 
         park5.ticketPriceAdult = 1350.00;
         park5.hasWaterParkSection = false;
         System.out.println("Name: " + park5.name);

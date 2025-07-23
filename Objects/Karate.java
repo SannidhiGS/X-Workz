@@ -1,8 +1,8 @@
 class Karate {
-    String style; // e.g., Shotokan, Goju-ryu, Wado-ryu
+    String style; 
     String originCountry;
     String founder;
     int foundingYear;
-    String primaryTechniqueFocus; // e.g., Striking, Grappling, Forms
+    String primaryTechniqueFocus; 
     boolean isOlympicSport;
 }

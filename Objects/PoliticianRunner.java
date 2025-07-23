@@ -329,7 +329,7 @@ class PoliticianRunner {
         p15.id = 15;
         p15.name = "V. Somanna";
         p15.party = "Bharatiya Janata Party";
-        p15.constituency = "Varuna"; // Contested here, lost
+        p15.constituency = "Varuna"; 
         p15.age = 75;
         p15.education = "PUC";
         p15.position = "Former Minister";

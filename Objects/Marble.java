@@ -1,8 +1,8 @@
 class Marble {
     String color;
-    String pattern; // e.g., Swirl, Solid, Speckled, Cat's Eye
+    String pattern;
     double diameterCm;
-    String material; // e.g., Glass, Clay, Steel
+    String material; 
     double weightGrams;
     boolean isRare;
 }
