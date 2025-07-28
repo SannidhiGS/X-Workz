@@ -33,112 +33,52 @@ class InvitationCardRunner {
         
         c8.getInvitationCardInfo();
 
-        InvitationCard c9 = new InvitationCard();
-        c9.title = "Reception Invite";
-        c9.color = "Cream";
-        c9.occasion = "Reception";
-        c9.size = "A4";
-        c9.price = 27.0;
-        c9.isPrinted = false;
+        InvitationCard c9 = new InvitationCard("Cultural Night","puple","Cultural","A5",22.5,true);
+        
         c9.getInvitationCardInfo();
 
-        InvitationCard c10 = new InvitationCard();
-        c10.title = "Naming Ceremony";
-        c10.color = "Light Blue";
-        c10.occasion = "Naming";
-        c10.size = "A6";
-        c10.price = 17.0;
-        c10.isPrinted = true;
+        InvitationCard c10 = new InvitationCard("Naming Ceremony","puple","Naming","A6",17.0,true);
+        
         c10.getInvitationCardInfo();
 
-        InvitationCard c11 = new InvitationCard();
-        c11.title = "Sangeet Night";
-        c11.color = "Yellow";
-        c11.occasion = "Sangeet";
-        c11.size = "A5";
-        c11.price = 20.0;
-        c11.isPrinted = true;
+        InvitationCard c11 = new InvitationCard("Art Exhibition","Multicolor","Art","A5",30.0,true);
+       
         c11.getInvitationCardInfo();
 
-        InvitationCard c12 = new InvitationCard();
-        c12.title = "Farewell Party";
-        c12.color = "Navy Blue";
-        c12.occasion = "Farewell";
-        c12.size = "A4";
-        c12.price = 24.0;
-        c12.isPrinted = true;
+        InvitationCard c12 = new InvitationCard("Farewell Party","Blue","Farewell","A4",24.0,true);
+        
         c12.getInvitationCardInfo();
 
-        InvitationCard c13 = new InvitationCard();
-        c13.title = "Reunion Party";
-        c13.color = "Teal";
-        c13.occasion = "Reunion";
-        c13.size = "A5";
-        c13.price = 20.5;
-        c13.isPrinted = false;
+        InvitationCard c13 = new InvitationCard("Reunion","puple","Reunion","A5",20.5,false);
+        
         c13.getInvitationCardInfo();
 
-        InvitationCard c14 = new InvitationCard();
-        c14.title = "Welcome Party";
-        c14.color = "White";
-        c14.occasion = "Welcome";
-        c14.size = "A4";
-        c14.price = 18.5;
-        c14.isPrinted = true;
+        InvitationCard c14 = new InvitationCard("Welcome Party","white","welcome","A4",18.5,true);
+        
         c14.getInvitationCardInfo();
 
-        InvitationCard c15 = new InvitationCard();
-        c15.title = "Office Opening";
-        c15.color = "Brown";
-        c15.occasion = "Business";
-        c15.size = "A5";
-        c15.price = 23.0;
-        c15.isPrinted = false;
+        InvitationCard c15 = new InvitationCard("Office Opening","Brown","Business","A5",23.0,false);
+       
         c15.getInvitationCardInfo();
 
-        InvitationCard c16 = new InvitationCard();
-        c16.title = "Annual Day";
-        c16.color = "Orange";
-        c16.occasion = "School Function";
-        c16.size = "A6";
-        c16.price = 16.0;
-        c16.isPrinted = true;
+        InvitationCard c16 = new InvitationCard("Annual day","Orange","School Function","A6",16.0,true);
+       
         c16.getInvitationCardInfo();
 
-        InvitationCard c17 = new InvitationCard();
-        c17.title = "Sports Day";
-        c17.color = "Sky Blue";
-        c17.occasion = "School Event";
-        c17.size = "A5";
-        c17.price = 19.0;
-        c17.isPrinted = true;
+        InvitationCard c17 = new InvitationCard("Sports Day","Sky Blue","Cultural","A5",19.5,true);
+       
         c17.getInvitationCardInfo();
 
-        InvitationCard c18 = new InvitationCard();
-        c18.title = "Book Launch";
-        c18.color = "Black";
-        c18.occasion = "Literary";
-        c18.size = "A5";
-        c18.price = 25.5;
-        c18.isPrinted = true;
+        InvitationCard c18 = new InvitationCard("Book Launch","Black","Literacy","A5",25.5,true);
+        
         c18.getInvitationCardInfo();
 
-        InvitationCard c19 = new InvitationCard();
-        c19.title = "Art Exhibition";
-        c19.color = "Multicolor";
-        c19.occasion = "Art";
-        c19.size = "A4";
-        c19.price = 30.0;
-        c19.isPrinted = false;
+        InvitationCard c19 = new InvitationCard("Art Exhibition","Multicolor","Art","A5",30.0,true);
+        
         c19.getInvitationCardInfo();
 
-        InvitationCard c20 = new InvitationCard();
-        c20.title = "Cultural Night";
-        c20.color = "Purple";
-        c20.occasion = "Cultural";
-        c20.size = "A5";
-        c20.price = 22.5;
-        c20.isPrinted = true;
+        InvitationCard c20 = new InvitationCard("Cultural Night","puple","Cultural","A5",22.5,true);
+        
         c20.getInvitationCardInfo();
     }
 }
