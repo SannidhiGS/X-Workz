@@ -9,13 +9,7 @@ class AmusementParkRunner {
         park1.numberOfRides = 60;
         park1.ticketPriceAdult = 1249.00;
         park1.hasWaterParkSection = true;
-        System.out.println("Name: " + park1.name);
-        System.out.println("Location: " + park1.locationCity);
-        System.out.println("Area (Acres): " + park1.areaAcres);
-        System.out.println("Number of Rides: " + park1.numberOfRides);
-        System.out.println("Adult Ticket Price: Rs." + park1.ticketPriceAdult);
-        System.out.println("Has Water Park: " + park1.hasWaterParkSection);
-        System.out.println();
+        park1.getAmmusement();
 
         AmusementPark park2 = new AmusementPark();
         park2.name = "Imagicaa";
@@ -24,13 +18,7 @@ class AmusementParkRunner {
         park2.numberOfRides = 25;
         park2.ticketPriceAdult = 1499.00;
         park2.hasWaterParkSection = true;
-        System.out.println("Name: " + park2.name);
-        System.out.println("Location: " + park2.locationCity);
-        System.out.println("Area (Acres): " + park2.areaAcres);
-        System.out.println("Number of Rides: " + park2.numberOfRides);
-        System.out.println("Adult Ticket Price: Rs." + park2.ticketPriceAdult);
-        System.out.println("Has Water Park: " + park2.hasWaterParkSection);
-        System.out.println();
+        park2.getAmmusement();
 
         AmusementPark park3 = new AmusementPark();
         park3.name = "EsselWorld";
@@ -39,13 +27,7 @@ class AmusementParkRunner {
         park3.numberOfRides = 30;
         park3.ticketPriceAdult = 999.00;
         park3.hasWaterParkSection = false; 
-        System.out.println("Name: " + park3.name);
-        System.out.println("Location: " + park3.locationCity);
-        System.out.println("Area (Acres): " + park3.areaAcres);
-        System.out.println("Number of Rides: " + park3.numberOfRides);
-        System.out.println("Adult Ticket Price: Rs." + park3.ticketPriceAdult);
-        System.out.println("Has Water Park: " + park3.hasWaterParkSection);
-        System.out.println();
+        park3.getAmmusement();
 
         AmusementPark park4 = new AmusementPark();
         park4.name = "Nicco Park";
@@ -54,13 +36,7 @@ class AmusementParkRunner {
         park4.numberOfRides = 35;
         park4.ticketPriceAdult = 300.00;
         park4.hasWaterParkSection = true;
-        System.out.println("Name: " + park4.name);
-        System.out.println("Location: " + park4.locationCity);
-        System.out.println("Area (Acres): " + park4.areaAcres);
-        System.out.println("Number of Rides: " + park4.numberOfRides);
-        System.out.println("Adult Ticket Price: Rs." + park4.ticketPriceAdult);
-        System.out.println("Has Water Park: " + park4.hasWaterParkSection);
-        System.out.println();
+        park4.getAmmusement();
 
         AmusementPark park5 = new AmusementPark();
         park5.name = "Ramoji Film City";
@@ -69,13 +45,7 @@ class AmusementParkRunner {
         park5.numberOfRides = 15; 
         park5.ticketPriceAdult = 1350.00;
         park5.hasWaterParkSection = false;
-        System.out.println("Name: " + park5.name);
-        System.out.println("Location: " + park5.locationCity);
-        System.out.println("Area (Acres): " + park5.areaAcres);
-        System.out.println("Number of Rides: " + park5.numberOfRides);
-        System.out.println("Adult Ticket Price: Rs." + park5.ticketPriceAdult);
-        System.out.println("Has Water Park: " + park5.hasWaterParkSection);
-        System.out.println();
+        park5.getAmmusement();
 
         AmusementPark park6 = new AmusementPark();
         park6.name = "Adlabs Aquamagica";
@@ -84,13 +54,7 @@ class AmusementParkRunner {
         park6.numberOfRides = 12;
         park6.ticketPriceAdult = 999.00;
         park6.hasWaterParkSection = true;
-        System.out.println("Name: " + park6.name);
-        System.out.println("Location: " + park6.locationCity);
-        System.out.println("Area (Acres): " + park6.areaAcres);
-        System.out.println("Number of Rides: " + park6.numberOfRides);
-        System.out.println("Adult Ticket Price: Rs." + park6.ticketPriceAdult);
-        System.out.println("Has Water Park: " + park6.hasWaterParkSection);
-        System.out.println();
+        park6.getAmmusement();
 
         AmusementPark park7 = new AmusementPark();
         park7.name = "GRS Fantasy Park";
@@ -99,13 +63,7 @@ class AmusementParkRunner {
         park7.numberOfRides = 20;
         park7.ticketPriceAdult = 800.00;
         park7.hasWaterParkSection = true;
-        System.out.println("Name: " + park7.name);
-        System.out.println("Location: " + park7.locationCity);
-        System.out.println("Area (Acres): " + park7.areaAcres);
-        System.out.println("Number of Rides: " + park7.numberOfRides);
-        System.out.println("Adult Ticket Price: Rs." + park7.ticketPriceAdult);
-        System.out.println("Has Water Park: " + park7.hasWaterParkSection);
-        System.out.println();
+        park7.getAmmusement();
 
         AmusementPark park8 = new AmusementPark();
         park8.name = "Queensland Amusement Park";
@@ -114,13 +72,7 @@ class AmusementParkRunner {
         park8.numberOfRides = 50;
         park8.ticketPriceAdult = 600.00;
         park8.hasWaterParkSection = true;
-        System.out.println("Name: " + park8.name);
-        System.out.println("Location: " + park8.locationCity);
-        System.out.println("Area (Acres): " + park8.areaAcres);
-        System.out.println("Number of Rides: " + park8.numberOfRides);
-        System.out.println("Adult Ticket Price: Rs." + park8.ticketPriceAdult);
-        System.out.println("Has Water Park: " + park8.hasWaterParkSection);
-        System.out.println();
+        park8.getAmmusement();
 
         AmusementPark park9 = new AmusementPark();
         park9.name = "Worlds of Wonder";
@@ -129,13 +81,7 @@ class AmusementParkRunner {
         park9.numberOfRides = 20;
         park9.ticketPriceAdult = 1000.00;
         park9.hasWaterParkSection = true;
-        System.out.println("Name: " + park9.name);
-        System.out.println("Location: " + park9.locationCity);
-        System.out.println("Area (Acres): " + park9.areaAcres);
-        System.out.println("Number of Rides: " + park9.numberOfRides);
-        System.out.println("Adult Ticket Price: Rs." + park9.ticketPriceAdult);
-        System.out.println("Has Water Park: " + park9.hasWaterParkSection);
-        System.out.println();
+        park9.getAmmusement();
 
         AmusementPark park10 = new AmusementPark();
         park10.name = "Fun N Food Village";
@@ -144,13 +90,7 @@ class AmusementParkRunner {
         park10.numberOfRides = 10;
         park10.ticketPriceAdult = 1200.00;
         park10.hasWaterParkSection = true;
-        System.out.println("Name: " + park10.name);
-        System.out.println("Location: " + park10.locationCity);
-        System.out.println("Area (Acres): " + park10.areaAcres);
-        System.out.println("Number of Rides: " + park10.numberOfRides);
-        System.out.println("Adult Ticket Price: Rs." + park10.ticketPriceAdult);
-        System.out.println("Has Water Park: " + park10.hasWaterParkSection);
-        System.out.println();
+        park10.getAmmusement();
 
         AmusementPark park11 = new AmusementPark();
         park11.name = "Funtasia Island";
@@ -159,13 +99,7 @@ class AmusementParkRunner {
         park11.numberOfRides = 8;
         park11.ticketPriceAdult = 400.00;
         park11.hasWaterParkSection = true;
-        System.out.println("Name: " + park11.name);
-        System.out.println("Location: " + park11.locationCity);
-        System.out.println("Area (Acres): " + park11.areaAcres);
-        System.out.println("Number of Rides: " + park11.numberOfRides);
-        System.out.println("Adult Ticket Price: Rs." + park11.ticketPriceAdult);
-        System.out.println("Has Water Park: " + park11.hasWaterParkSection);
-        System.out.println();
+        park11.getAmmusement();
 
         AmusementPark park12 = new AmusementPark();
         park12.name = "Snow Kingdom";
@@ -174,13 +108,7 @@ class AmusementParkRunner {
         park12.numberOfRides = 5;
         park12.ticketPriceAdult = 700.00;
         park12.hasWaterParkSection = false;
-        System.out.println("Name: " + park12.name);
-        System.out.println("Location: " + park12.locationCity);
-        System.out.println("Area (Acres): " + park12.areaAcres);
-        System.out.println("Number of Rides: " + park12.numberOfRides);
-        System.out.println("Adult Ticket Price: Rs." + park12.ticketPriceAdult);
-        System.out.println("Has Water Park: " + park12.hasWaterParkSection);
-        System.out.println();
+        park12.getAmmusement();
 
         AmusementPark park13 = new AmusementPark();
         park13.name = "Innovative Film City";
@@ -189,13 +117,7 @@ class AmusementParkRunner {
         park13.numberOfRides = 10;
         park13.ticketPriceAdult = 600.00;
         park13.hasWaterParkSection = true;
-        System.out.println("Name: " + park13.name);
-        System.out.println("Location: " + park13.locationCity);
-        System.out.println("Area (Acres): " + park13.areaAcres);
-        System.out.println("Number of Rides: " + park13.numberOfRides);
-        System.out.println("Adult Ticket Price: Rs." + park13.ticketPriceAdult);
-        System.out.println("Has Water Park: " + park13.hasWaterParkSection);
-        System.out.println();
+        park13.getAmmusement();
 
         AmusementPark park14 = new AmusementPark();
         park14.name = "Wonderla Kochi";
@@ -204,14 +126,8 @@ class AmusementParkRunner {
         park14.numberOfRides = 50;
         park14.ticketPriceAdult = 1050.00;
         park14.hasWaterParkSection = true;
-        System.out.println("Name: " + park14.name);
-        System.out.println("Location: " + park14.locationCity);
-        System.out.println("Area (Acres): " + park14.areaAcres);
-        System.out.println("Number of Rides: " + park14.numberOfRides);
-        System.out.println("Adult Ticket Price: Rs." + park14.ticketPriceAdult);
-        System.out.println("Has Water Park: " + park14.hasWaterParkSection);
-        System.out.println();
-
+        park14.getAmmusement();
+		
         AmusementPark park15 = new AmusementPark();
         park15.name = "Aquatica";
         park15.locationCity = "Kolkata";
@@ -219,13 +135,7 @@ class AmusementParkRunner {
         park15.numberOfRides = 15;
         park15.ticketPriceAdult = 450.00;
         park15.hasWaterParkSection = true;
-        System.out.println("Name: " + park15.name);
-        System.out.println("Location: " + park15.locationCity);
-        System.out.println("Area (Acres): " + park15.areaAcres);
-        System.out.println("Number of Rides: " + park15.numberOfRides);
-        System.out.println("Adult Ticket Price: Rs." + park15.ticketPriceAdult);
-        System.out.println("Has Water Park: " + park15.hasWaterParkSection);
-        System.out.println();
+        park15.getAmmusement();
 
         AmusementPark park16 = new AmusementPark();
         park16.name = "Adventure Island";
@@ -234,13 +144,7 @@ class AmusementParkRunner {
         park16.numberOfRides = 25;
         park16.ticketPriceAdult = 800.00;
         park16.hasWaterParkSection = false;
-        System.out.println("Name: " + park16.name);
-        System.out.println("Location: " + park16.locationCity);
-        System.out.println("Area (Acres): " + park16.areaAcres);
-        System.out.println("Number of Rides: " + park16.numberOfRides);
-        System.out.println("Adult Ticket Price: " + park16.ticketPriceAdult);
-        System.out.println("Has Water Park: " + park16.hasWaterParkSection);
-        System.out.println();
+        park16.getAmmusement();
 
         AmusementPark park17 = new AmusementPark();
         park17.name = "Snow World";
@@ -249,13 +153,7 @@ class AmusementParkRunner {
         park17.numberOfRides = 3;
         park17.ticketPriceAdult = 500.00;
         park17.hasWaterParkSection = false;
-        System.out.println("Name: " + park17.name);
-        System.out.println("Location: " + park17.locationCity);
-        System.out.println("Area (Acres): " + park17.areaAcres);
-        System.out.println("Number of Rides: " + park17.numberOfRides);
-        System.out.println("Adult Ticket Price: Rs." + park17.ticketPriceAdult);
-        System.out.println("Has Water Park: " + park17.hasWaterParkSection);
-        System.out.println();
+        park17.getAmmusement();
 
         AmusementPark park18 = new AmusementPark();
         park18.name = "Wonderla Hyderabad";
@@ -264,13 +162,7 @@ class AmusementParkRunner {
         park18.numberOfRides = 43;
         park18.ticketPriceAdult = 1149.00;
         park18.hasWaterParkSection = true;
-        System.out.println("Name: " + park18.name);
-        System.out.println("Location: " + park18.locationCity);
-        System.out.println("Area (Acres): " + park18.areaAcres);
-        System.out.println("Number of Rides: " + park18.numberOfRides);
-        System.out.println("Adult Ticket Price: Rs." + park18.ticketPriceAdult);
-        System.out.println("Has Water Park: " + park18.hasWaterParkSection);
-        System.out.println();
+        park18.getAmmusement();
 
         AmusementPark park19 = new AmusementPark();
         park19.name = "Splash Water Park";
@@ -279,14 +171,8 @@ class AmusementParkRunner {
         park19.numberOfRides = 10;
         park19.ticketPriceAdult = 700.00;
         park19.hasWaterParkSection = true;
-        System.out.println("Name: " + park19.name);
-        System.out.println("Location: " + park19.locationCity);
-        System.out.println("Area (Acres): " + park19.areaAcres);
-        System.out.println("Number of Rides: " + park19.numberOfRides);
-        System.out.println("Adult Ticket Price: Rs." + park19.ticketPriceAdult);
-        System.out.println("Has Water Park: " + park19.hasWaterParkSection);
-        System.out.println();
-
+        park19.getAmmusement();
+		
         AmusementPark park20 = new AmusementPark();
         park20.name = "DREAM WORLD Water Park";
         park20.locationCity = "Surat, Gujarat";
@@ -294,13 +180,7 @@ class AmusementParkRunner {
         park20.numberOfRides = 18;
         park20.ticketPriceAdult = 650.00;
         park20.hasWaterParkSection = true;
-        System.out.println("Name: " + park20.name);
-        System.out.println("Location: " + park20.locationCity);
-        System.out.println("Area (Acres): " + park20.areaAcres);
-        System.out.println("Number of Rides: " + park20.numberOfRides);
-        System.out.println("Adult Ticket Price: Rs." + park20.ticketPriceAdult);
-        System.out.println("Has Water Park: " + park20.hasWaterParkSection);
-        System.out.println();
+        park20.getAmmusement();
 
         System.out.println("Main Ended - Amusement Park Data Display Complete");
     }

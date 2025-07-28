@@ -1,7 +1,10 @@
 class InvitationCardRunner {
     public static void main(String args[]) {
         System.out.println("Main Started - Invitation Card Collection Display");
-
+		
+		InvitationCard(){
+			System.out.println("The constructor invoked");
+		}
         InvitationCard card1 = new InvitationCard();
         card1.cardId = 1;
         card1.eventType = "Birthday Party";
@@ -12,15 +15,7 @@ class InvitationCardRunner {
         card1.senderName = "The Johnsons";
         card1.rsvpContact = "johnsons@email.com";
 
-        System.out.println("Card ID: " + card1.cardId);
-        System.out.println("Event Type: " + card1.eventType);
-        System.out.println("Recipient: " + card1.recipientName);
-        System.out.println("Date: " + card1.eventDate);
-        System.out.println("Time: " + card1.eventTime);
-        System.out.println("Location: " + card1.eventLocation);
-        System.out.println("Sender: " + card1.senderName);
-        System.out.println("RSVP: " + card1.rsvpContact);
-        System.out.println();
+        card1.getInvInfo();
 
         InvitationCard card2 = new InvitationCard();
         card2.cardId = 2;
@@ -32,15 +27,7 @@ class InvitationCardRunner {
         card2.senderName = "Sarah & Mark";
         card2.rsvpContact = "rsvp.sarahmark@wedding.com";
 
-        System.out.println("Card ID: " + card2.cardId);
-        System.out.println("Event Type: " + card2.eventType);
-        System.out.println("Recipient: " + card2.recipientName);
-        System.out.println("Date: " + card2.eventDate);
-        System.out.println("Time: " + card2.eventTime);
-        System.out.println("Location: " + card2.eventLocation);
-        System.out.println("Sender: " + card2.senderName);
-        System.out.println("RSVP: " + card2.rsvpContact);
-        System.out.println();
+                card2.getInvInfo();
 
         InvitationCard card3 = new InvitationCard();
         card3.cardId = 3;
@@ -52,15 +39,7 @@ class InvitationCardRunner {
         card3.senderName = "Emily Chen";
         card3.rsvpContact = "emily.grad@email.com";
 
-        System.out.println("Card ID: " + card3.cardId);
-        System.out.println("Event Type: " + card3.eventType);
-        System.out.println("Recipient: " + card3.recipientName);
-        System.out.println("Date: " + card3.eventDate);
-        System.out.println("Time: " + card3.eventTime);
-        System.out.println("Location: " + card3.eventLocation);
-        System.out.println("Sender: " + card3.senderName);
-        System.out.println("RSVP: " + card3.rsvpContact);
-        System.out.println();
+                card3.getInvInfo();
 
         InvitationCard card4 = new InvitationCard();
         card4.cardId = 4;
@@ -72,15 +51,7 @@ class InvitationCardRunner {
         card4.senderName = "Sarah & Tom";
         card4.rsvpContact = "sarah.baby@email.com";
 
-        System.out.println("Card ID: " + card4.cardId);
-        System.out.println("Event Type: " + card4.eventType);
-        System.out.println("Recipient: " + card4.recipientName);
-        System.out.println("Date: " + card4.eventDate);
-        System.out.println("Time: " + card4.eventTime);
-        System.out.println("Location: " + card4.eventLocation);
-        System.out.println("Sender: " + card4.senderName);
-        System.out.println("RSVP: " + card4.rsvpContact);
-        System.out.println();
+                card4.getInvInfo();
 
         InvitationCard card5 = new InvitationCard();
         card5.cardId = 5;
@@ -92,16 +63,8 @@ class InvitationCardRunner {
         card5.senderName = "The Millers";
         card5.rsvpContact = "millers.housewarming@email.com";
 
-        System.out.println("Card ID: " + card5.cardId);
-        System.out.println("Event Type: " + card5.eventType);
-        System.out.println("Recipient: " + card5.recipientName);
-        System.out.println("Date: " + card5.eventDate);
-        System.out.println("Time: " + card5.eventTime);
-        System.out.println("Location: " + card5.eventLocation);
-        System.out.println("Sender: " + card5.senderName);
-        System.out.println("RSVP: " + card5.rsvpContact);
-        System.out.println();
-
+               card5.getInvInfo();
+			   
         InvitationCard card6 = new InvitationCard();
         card6.cardId = 6;
         card6.eventType = "Retirement Party";
@@ -112,15 +75,7 @@ class InvitationCardRunner {
         card6.senderName = "Company HR";
         card6.rsvpContact = "hr@company.com";
 
-        System.out.println("Card ID: " + card6.cardId);
-        System.out.println("Event Type: " + card6.eventType);
-        System.out.println("Recipient: " + card6.recipientName);
-        System.out.println("Date: " + card6.eventDate);
-        System.out.println("Time: " + card6.eventTime);
-        System.out.println("Location: " + card6.eventLocation);
-        System.out.println("Sender: " + card6.senderName);
-        System.out.println("RSVP: " + card6.rsvpContact);
-        System.out.println();
+                card6.getInvInfo();
 
         InvitationCard card7 = new InvitationCard();
         card7.cardId = 7;
@@ -132,15 +87,7 @@ class InvitationCardRunner {
         card7.senderName = "Liam & Olivia";
         card7.rsvpContact = "liam.olivia.rsvp@email.com";
 
-        System.out.println("Card ID: " + card7.cardId);
-        System.out.println("Event Type: " + card7.eventType);
-        System.out.println("Recipient: " + card7.recipientName);
-        System.out.println("Date: " + card7.eventDate);
-        System.out.println("Time: " + card7.eventTime);
-        System.out.println("Location: " + card7.eventLocation);
-        System.out.println("Sender: " + card7.senderName);
-        System.out.println("RSVP: " + card7.rsvpContact);
-        System.out.println();
+                card7.getInvInfo();
 
         InvitationCard card8 = new InvitationCard();
         card8.cardId = 8;
@@ -152,15 +99,7 @@ class InvitationCardRunner {
         card8.senderName = "John & Mary";
         card8.rsvpContact = "johnmary.anniversary@email.com";
 
-        System.out.println("Card ID: " + card8.cardId);
-        System.out.println("Event Type: " + card8.eventType);
-        System.out.println("Recipient: " + card8.recipientName);
-        System.out.println("Date: " + card8.eventDate);
-        System.out.println("Time: " + card8.eventTime);
-        System.out.println("Location: " + card8.eventLocation);
-        System.out.println("Sender: " + card8.senderName);
-        System.out.println("RSVP: " + card8.rsvpContact);
-        System.out.println();
+                card8.getInvInfo();
 
         InvitationCard card9 = new InvitationCard();
         card9.cardId = 9;
@@ -172,15 +111,7 @@ class InvitationCardRunner {
         card9.senderName = "The Andersons";
         card9.rsvpContact = "holiday@andersons.com";
 
-        System.out.println("Card ID: " + card9.cardId);
-        System.out.println("Event Type: " + card9.eventType);
-        System.out.println("Recipient: " + card9.recipientName);
-        System.out.println("Date: " + card9.eventDate);
-        System.out.println("Time: " + card9.eventTime);
-        System.out.println("Location: " + card9.eventLocation);
-        System.out.println("Sender: " + card9.senderName);
-        System.out.println("RSVP: " + card9.rsvpContact);
-        System.out.println();
+              card9.getInvInfo();
 
         InvitationCard card10 = new InvitationCard();
         card10.cardId = 10;
@@ -192,15 +123,7 @@ class InvitationCardRunner {
         card10.senderName = "Sophia Lee";
         card10.rsvpContact = "sophia.dinner@email.com";
 
-        System.out.println("Card ID: " + card10.cardId);
-        System.out.println("Event Type: " + card10.eventType);
-        System.out.println("Recipient: " + card10.recipientName);
-        System.out.println("Date: " + card10.eventDate);
-        System.out.println("Time: " + card10.eventTime);
-        System.out.println("Location: " + card10.eventLocation);
-        System.out.println("Sender: " + card10.senderName);
-        System.out.println("RSVP: " + card10.rsvpContact);
-        System.out.println();
+                card10.getInvInfo();
 
         InvitationCard card11 = new InvitationCard();
         card11.cardId = 11;
@@ -212,15 +135,7 @@ class InvitationCardRunner {
         card11.senderName = "Helping Hands Foundation";
         card11.rsvpContact = "gala@helpinghands.org";
 
-        System.out.println("Card ID: " + card11.cardId);
-        System.out.println("Event Type: " + card11.eventType);
-        System.out.println("Recipient: " + card11.recipientName);
-        System.out.println("Date: " + card11.eventDate);
-        System.out.println("Time: " + card11.eventTime);
-        System.out.println("Location: " + card11.eventLocation);
-        System.out.println("Sender: " + card11.senderName);
-        System.out.println("RSVP: " + card11.rsvpContact);
-        System.out.println();
+                card11.getInvInfo();
 
         InvitationCard card12 = new InvitationCard();
         card12.cardId = 12;
@@ -232,15 +147,7 @@ class InvitationCardRunner {
         card12.senderName = "City Art Collective";
         card12.rsvpContact = "artshow@gallery.com";
 
-        System.out.println("Card ID: " + card12.cardId);
-        System.out.println("Event Type: " + card12.eventType);
-        System.out.println("Recipient: " + card12.recipientName);
-        System.out.println("Date: " + card12.eventDate);
-        System.out.println("Time: " + card12.eventTime);
-        System.out.println("Location: " + card12.eventLocation);
-        System.out.println("Sender: " + card12.senderName);
-        System.out.println("RSVP: " + card12.rsvpContact);
-        System.out.println();
+                card12.getInvInfo();
 
         InvitationCard card13 = new InvitationCard();
         card13.cardId = 13;
@@ -252,15 +159,7 @@ class InvitationCardRunner {
         card13.senderName = "The Fan Club";
         card13.rsvpContact = "fans@sports.com";
 
-        System.out.println("Card ID: " + card13.cardId);
-        System.out.println("Event Type: " + card13.eventType);
-        System.out.println("Recipient: " + card13.recipientName);
-        System.out.println("Date: " + card13.eventDate);
-        System.out.println("Time: " + card13.eventTime);
-        System.out.println("Location: " + card13.eventLocation);
-        System.out.println("Sender: " + card13.senderName);
-        System.out.println("RSVP: " + card13.rsvpContact);
-        System.out.println();
+                card13.getInvInfo();
 
         InvitationCard card14 = new InvitationCard();
         card14.cardId = 14;
@@ -272,15 +171,7 @@ class InvitationCardRunner {
         card14.senderName = "Dracula & Frankenstein";
         card14.rsvpContact = "monsters@party.com";
 
-        System.out.println("Card ID: " + card14.cardId);
-        System.out.println("Event Type: " + card14.eventType);
-        System.out.println("Recipient: " + card14.recipientName);
-        System.out.println("Date: " + card14.eventDate);
-        System.out.println("Time: " + card14.eventTime);
-        System.out.println("Location: " + card14.eventLocation);
-        System.out.println("Sender: " + card14.senderName);
-        System.out.println("RSVP: " + card14.rsvpContact);
-        System.out.println();
+                card14.getInvInfo();
 
         InvitationCard card15 = new InvitationCard();
         card15.cardId = 15;
@@ -292,15 +183,7 @@ class InvitationCardRunner {
         card15.senderName = "The Management";
         card15.rsvpContact = "hr.farewell@company.org";
 
-        System.out.println("Card ID: " + card15.cardId);
-        System.out.println("Event Type: " + card15.eventType);
-        System.out.println("Recipient: " + card15.recipientName);
-        System.out.println("Date: " + card15.eventDate);
-        System.out.println("Time: " + card15.eventTime);
-        System.out.println("Location: " + card15.eventLocation);
-        System.out.println("Sender: " + card15.senderName);
-        System.out.println("RSVP: " + card15.rsvpContact);
-        System.out.println();
+                card15.getInvInfo();
 
         System.out.println("Main Ended - Invitation Card Collection Display Complete");
     }
