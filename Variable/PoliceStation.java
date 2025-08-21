@@ -1,0 +1,87 @@
+class PoliceStation {
+    static String stationName ;
+    static String location;
+    static String stationCode ;
+    static String jurisdictionArea ;
+    static String headOfficer ;
+    static int noOfPoliceOfficers ;
+    static int noOfVehicles ;
+    static int noOfCells ;
+    static int noOfCCTVCameras ;
+    static int noOfDesks ;
+    static boolean hasCyberCrimeUnit ;
+    static boolean hasWomenHelpDesk ;
+    static boolean hasEmergencyResponseTeam ;
+    static boolean hasLostAndFoundDesk ;
+    static boolean hasArmory ;
+    static double stationAreaInSqFt ;
+    static int yearEstablished ;
+    static boolean hasFirstAidFacility;
+    static String contactNumber;
+    static String email ;
+
+    public static void main(String[] args) {
+        System.out.println("Station Name: " + stationName);
+        System.out.println("Location: " + location);
+        System.out.println("Station Code: " + stationCode);
+        System.out.println("Jurisdiction Area: " + jurisdictionArea);
+        System.out.println("Head Officer: " + headOfficer);
+        System.out.println("Number of Police Officers: " + noOfPoliceOfficers);
+        System.out.println("Number of Vehicles: " + noOfVehicles);
+        System.out.println("Number of Cells: " + noOfCells);
+        System.out.println("Number of CCTV Cameras: " + noOfCCTVCameras);
+        System.out.println("Number of Desks: " + noOfDesks);
+        System.out.println("Has Cyber Crime Unit: " + hasCyberCrimeUnit);
+        System.out.println("Has Women Help Desk: " + hasWomenHelpDesk);
+        System.out.println("Has Emergency Response Team: " + hasEmergencyResponseTeam);
+        System.out.println("Has Lost and Found Desk: " + hasLostAndFoundDesk);
+        System.out.println("Has Armory: " + hasArmory);
+        System.out.println("Station Area (sq ft): " + stationAreaInSqFt);
+        System.out.println("Year Established: " + yearEstablished);
+        System.out.println("Has First Aid Facility: " + hasFirstAidFacility);
+        System.out.println("Contact Number: " + contactNumber);
+        System.out.println("Email: " + email);
+		
+		 stationName = "MG Road Police Station";
+    location = "Chikkamagaluru,Karnataka";
+     stationCode = "PS1234";
+     jurisdictionArea = "MG Road and surrounding 5 km";
+     headOfficer = "Inspector Ramesh Patil";
+     noOfPoliceOfficers = 50;
+     noOfVehicles = 10;
+     noOfCells = 5;
+     noOfCCTVCameras = 25;
+     noOfDesks = 12;
+     hasCyberCrimeUnit = true;
+    hasWomenHelpDesk = true;
+     hasEmergencyResponseTeam = true;
+     hasLostAndFoundDesk = true;
+     hasArmory = true;
+     stationAreaInSqFt = 10000.0;
+    yearEstablished = 1985;
+     hasFirstAidFacility = true;
+      contactNumber = "100";
+     email = "mgroadps@police.in";
+	
+	System.out.println("Station Name: " + stationName);
+        System.out.println("Location: " + location);
+        System.out.println("Station Code: " + stationCode);
+        System.out.println("Jurisdiction Area: " + jurisdictionArea);
+        System.out.println("Head Officer: " + headOfficer);
+        System.out.println("Number of Police Officers: " + noOfPoliceOfficers);
+        System.out.println("Number of Vehicles: " + noOfVehicles);
+        System.out.println("Number of Cells: " + noOfCells);
+        System.out.println("Number of CCTV Cameras: " + noOfCCTVCameras);
+        System.out.println("Number of Desks: " + noOfDesks);
+        System.out.println("Has Cyber Crime Unit: " + hasCyberCrimeUnit);
+        System.out.println("Has Women Help Desk: " + hasWomenHelpDesk);
+        System.out.println("Has Emergency Response Team: " + hasEmergencyResponseTeam);
+        System.out.println("Has Lost and Found Desk: " + hasLostAndFoundDesk);
+        System.out.println("Has Armory: " + hasArmory);
+        System.out.println("Station Area (sq ft): " + stationAreaInSqFt);
+        System.out.println("Year Established: " + yearEstablished);
+        System.out.println("Has First Aid Facility: " + hasFirstAidFacility);
+        System.out.println("Contact Number: " + contactNumber);
+        System.out.println("Email: " + email);
+    }
+}

@@ -1,0 +1,92 @@
+class Theatre {
+    static String theatreName ;
+    static String location ;
+    static String owner;
+    static int seatingCapacity ;
+    static int numberOfScreens ;
+    static boolean has3DTechnology ;
+    static boolean hasIMAX;
+    static boolean hasDolbySound ;
+    static boolean hasWheelchairAccess ;
+    static boolean hasParkingFacility ;
+    static String openingHours ;
+    static int numberOfStaff ;
+    static int numberOfConcessionStands ;
+    static double ticketPriceAverage ;
+    static boolean servesFood;
+    static boolean hasOnlineBooking ;
+    static boolean hasLoyaltyProgram ;
+    static String screenType;
+    static int yearEstablished ;
+    static String contactNumber ;
+    static String website ;
+
+    public static void main(String[] args) {
+        System.out.println("Theatre Name: " + theatreName);
+        System.out.println("Location: " + location);
+        System.out.println("Owner: " + owner);
+        System.out.println("Seating Capacity: " + seatingCapacity);
+        System.out.println("Number of Screens: " + numberOfScreens);
+        System.out.println("Has 3D Technology: " + has3DTechnology);
+        System.out.println("Has IMAX: " + hasIMAX);
+        System.out.println("Has Dolby Sound: " + hasDolbySound);
+        System.out.println("Has Wheelchair Access: " + hasWheelchairAccess);
+        System.out.println("Has Parking Facility: " + hasParkingFacility);
+        System.out.println("Opening Hours: " + openingHours);
+        System.out.println("Number of Staff: " + numberOfStaff);
+        System.out.println("Number of Concession Stands: " + numberOfConcessionStands);
+        System.out.println("Average Ticket Price: ₹" + ticketPriceAverage);
+        System.out.println("Serves Food: " + servesFood);
+        System.out.println("Has Online Booking: " + hasOnlineBooking);
+        System.out.println("Has Loyalty Program: " + hasLoyaltyProgram);
+        System.out.println("Screen Type: " + screenType);
+        System.out.println("Year Established: " + yearEstablished);
+        System.out.println("Contact Number: " + contactNumber);
+        System.out.println("Website: " + website);
+		
+		 theatreName = "Nagarathna Films";
+     location = "Chikkamagaluru";
+     owner = "PVR Cinemas";
+     seatingCapacity = 500;
+     numberOfScreens = 3;
+     has3DTechnology = true;
+     hasIMAX = false;
+     hasDolbySound = true;
+     hasWheelchairAccess = true;
+     hasParkingFacility = true;
+    openingHours = "10:00 AM - 12:00 AM";
+     numberOfStaff = 30;
+  numberOfConcessionStands = 4;
+     ticketPriceAverage = 250.0;
+    servesFood = true;
+    hasOnlineBooking = true;
+     hasLoyaltyProgram = true;
+     screenType = "Digital Projection";
+    yearEstablished = 1998;
+     contactNumber = "022-12345678";
+    website = "https://www.regalcinema.com";
+	
+	System.out.println("Theatre Name: " + theatreName);
+        System.out.println("Location: " + location);
+        System.out.println("Owner: " + owner);
+        System.out.println("Seating Capacity: " + seatingCapacity);
+        System.out.println("Number of Screens: " + numberOfScreens);
+        System.out.println("Has 3D Technology: " + has3DTechnology);
+        System.out.println("Has IMAX: " + hasIMAX);
+        System.out.println("Has Dolby Sound: " + hasDolbySound);
+        System.out.println("Has Wheelchair Access: " + hasWheelchairAccess);
+        System.out.println("Has Parking Facility: " + hasParkingFacility);
+        System.out.println("Opening Hours: " + openingHours);
+        System.out.println("Number of Staff: " + numberOfStaff);
+        System.out.println("Number of Concession Stands: " + numberOfConcessionStands);
+        System.out.println("Average Ticket Price: ₹" + ticketPriceAverage);
+        System.out.println("Serves Food: " + servesFood);
+        System.out.println("Has Online Booking: " + hasOnlineBooking);
+        System.out.println("Has Loyalty Program: " + hasLoyaltyProgram);
+        System.out.println("Screen Type: " + screenType);
+        System.out.println("Year Established: " + yearEstablished);
+        System.out.println("Contact Number: " + contactNumber);
+        System.out.println("Website: " + website);
+
+    }
+}

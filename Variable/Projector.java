@@ -1,0 +1,87 @@
+class Projector {
+    static String brand ;
+    static String model;
+    static String resolution; 
+    static String projectionTechnology ;
+    static String color ;
+    static int brightnessInLumens;
+    static int contrastRatio ;
+    static double lampLifeInHours ;
+    static double screenSizeInInches;
+    static double throwRatio;
+    static boolean isWirelessEnabled;
+    static boolean hasHDMIPort;
+    static boolean hasVGAInput;
+    static boolean supports3D;
+    static boolean hasBuiltInSpeaker ;
+    static double weightInKg ;
+    static String aspectRatio;
+    static String keystoneCorrection;
+    static int powerConsumptionWatts ;
+    static boolean isPortable;
+
+    public static void main(String[] args) {
+        System.out.println("Brand: " + brand);
+        System.out.println("Model: " + model);
+        System.out.println("Resolution: " + resolution);
+        System.out.println("Projection Technology: " + projectionTechnology);
+        System.out.println("Color: " + color);
+        System.out.println("Brightness (Lumens): " + brightnessInLumens);
+        System.out.println("Contrast Ratio: " + contrastRatio + ":1");
+        System.out.println("Lamp Life (Hours): " + lampLifeInHours);
+        System.out.println("Max Screen Size (inches): " + screenSizeInInches);
+        System.out.println("Throw Ratio: " + throwRatio);
+        System.out.println("Wireless Enabled: " + isWirelessEnabled);
+        System.out.println("HDMI Port Available: " + hasHDMIPort);
+        System.out.println("VGA Input Available: " + hasVGAInput);
+        System.out.println("3D Support: " + supports3D);
+        System.out.println("Built-in Speaker: " + hasBuiltInSpeaker);
+        System.out.println("Weight (kg): " + weightInKg);
+        System.out.println("Aspect Ratio: " + aspectRatio);
+        System.out.println("Keystone Correction: " + keystoneCorrection);
+        System.out.println("Power Consumption (Watts): " + powerConsumptionWatts);
+        System.out.println("Portable: " + isPortable);
+		
+	brand = "Epson";
+    model = "EB-X41";
+    resolution = "1024x768"; 
+    projectionTechnology = "3LCD";
+    color = "White";
+    brightnessInLumens = 3600;
+    contrastRatio = 15000;
+    lampLifeInHours = 6000.0;
+    screenSizeInInches = 300.0;
+    throwRatio = 1.48;
+    isWirelessEnabled = true;
+    hasHDMIPort = true;
+    hasVGAInput = true;
+    supports3D = false;
+    hasBuiltInSpeaker = true;
+    weightInKg = 2.5;
+    aspectRatio = "4:3";
+    keystoneCorrection = "Vertical ±30 degree";
+    powerConsumptionWatts = 282;
+	isPortable = true;
+	 
+	 System.out.println("Brand: " + brand);
+        System.out.println("Model: " + model);
+        System.out.println("Resolution: " + resolution);
+        System.out.println("Projection Technology: " + projectionTechnology);
+        System.out.println("Color: " + color);
+        System.out.println("Brightness (Lumens): " + brightnessInLumens);
+        System.out.println("Contrast Ratio: " + contrastRatio + ":1");
+        System.out.println("Lamp Life (Hours): " + lampLifeInHours);
+        System.out.println("Max Screen Size (inches): " + screenSizeInInches);
+        System.out.println("Throw Ratio: " + throwRatio);
+        System.out.println("Wireless Enabled: " + isWirelessEnabled);
+        System.out.println("HDMI Port Available: " + hasHDMIPort);
+        System.out.println("VGA Input Available: " + hasVGAInput);
+        System.out.println("3D Support: " + supports3D);
+        System.out.println("Built-in Speaker: " + hasBuiltInSpeaker);
+        System.out.println("Weight (kg): " + weightInKg);
+        System.out.println("Aspect Ratio: " + aspectRatio);
+        System.out.println("Keystone Correction: " + keystoneCorrection);
+        System.out.println("Power Consumption (Watts): " + powerConsumptionWatts);
+        System.out.println("Portable: " + isPortable);
+    }
+}

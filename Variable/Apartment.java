@@ -1,0 +1,87 @@
+class Apartment {
+    static String apartmentName ;
+    static String location ;
+    static String builderName ;
+    static int totalFloors ;
+    static int totalUnits ;
+    static int unitsOccupied;
+    static int unitsAvailable ;
+    static float averageRentPerUnit ;
+    static boolean hasSwimmingPool;
+    static boolean hasGym;
+    static boolean hasClubHouse ;
+    static boolean hasChildrenPlayArea ;
+    static boolean hasParkingFacility ;
+    static boolean hasSecurity ;
+    static boolean hasElevators;
+    static int noOfSecurityGuards ;
+    static int noOfStaff ;
+    static String maintenanceContact ;
+    static String apartmentManager ;
+    static int yearBuilt ;
+
+    public static void main(String[] args) {
+        System.out.println("Apartment Name: " + apartmentName);
+        System.out.println("Location: " + location);
+        System.out.println("Builder: " + builderName);
+        System.out.println("Total Floors: " + totalFloors);
+        System.out.println("Total Units: " + totalUnits);
+        System.out.println("Units Occupied: " + unitsOccupied);
+        System.out.println("Units Available: " + unitsAvailable);
+        System.out.println("Average Rent per Unit:" + averageRentPerUnit);
+        System.out.println("Has Swimming Pool: " + hasSwimmingPool);
+        System.out.println("Has Gym: " + hasGym);
+        System.out.println("Has Club House: " + hasClubHouse);
+        System.out.println("Has Children Play Area: " + hasChildrenPlayArea);
+        System.out.println("Has Parking Facility: " + hasParkingFacility);
+        System.out.println("Has Security: " + hasSecurity);
+        System.out.println("Has Elevators: " + hasElevators);
+        System.out.println("Number of Security Guards: " + noOfSecurityGuards);
+        System.out.println("Number of Staff: " + noOfStaff);
+        System.out.println("Maintenance Contact: " + maintenanceContact);
+        System.out.println("Apartment Manager: " + apartmentManager);
+        System.out.println("Year Built: " + yearBuilt);
+		
+	  apartmentName = "Shivashakti";
+     location = "JP Nagar 7th phase, Bangalore";
+      builderName = "ABC Constructions";
+     totalFloors = 10;
+      totalUnits = 100;
+      unitsOccupied = 90;
+      unitsAvailable = 10;
+      averageRentPerUnit = 15000.0f;
+      hasSwimmingPool = false;
+      hasGym = true;
+      hasClubHouse = true;
+      hasChildrenPlayArea = true;
+      hasParkingFacility = true;
+      hasSecurity = true;
+      hasElevators = true;
+      noOfSecurityGuards = 5;
+      noOfStaff = 10;
+      maintenanceContact = "9480473918";
+      apartmentManager = "Mr. Ramesh Kumar";
+      yearBuilt = 2018;
+	 
+	    System.out.println("Apartment Name: " + apartmentName);
+        System.out.println("Location: " + location);
+        System.out.println("Builder: " + builderName);
+        System.out.println("Total Floors: " + totalFloors);
+        System.out.println("Total Units: " + totalUnits);
+        System.out.println("Units Occupied: " + unitsOccupied);
+        System.out.println("Units Available: " + unitsAvailable);
+        System.out.println("Average Rent per Unit: ₹" + averageRentPerUnit);
+        System.out.println("Has Swimming Pool: " + hasSwimmingPool);
+        System.out.println("Has Gym: " + hasGym);
+        System.out.println("Has Club House: " + hasClubHouse);
+        System.out.println("Has Children Play Area: " + hasChildrenPlayArea);
+        System.out.println("Has Parking Facility: " + hasParkingFacility);
+        System.out.println("Has Security: " + hasSecurity);
+        System.out.println("Has Elevators: " + hasElevators);
+        System.out.println("Number of Security Guards: " + noOfSecurityGuards);
+        System.out.println("Number of Staff: " + noOfStaff);
+        System.out.println("Maintenance Contact: " + maintenanceContact);
+        System.out.println("Apartment Manager: " + apartmentManager);
+        System.out.println("Year Built: " + yearBuilt);
+    }
+}
