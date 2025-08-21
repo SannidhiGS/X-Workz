@@ -1,0 +1,307 @@
+class FishRunner {
+    public static void main(String[] args) {
+        System.out.println("Main Started - Fish Data");
+
+        Fish fish1 = new Fish();
+        fish1.species = "Goldfish";
+        fish1.color = "Orange";
+        fish1.habitat = "Freshwater";
+        fish1.averageLengthCm = 15.0;
+        fish1.averageWeightKg = 0.1;
+        fish1.isEdible = false;
+        System.out.println("Species: " + fish1.species);
+        System.out.println("Color: " + fish1.color);
+        System.out.println("Habitat: " + fish1.habitat);
+        System.out.println("Average Length (cm): " + fish1.averageLengthCm);
+        System.out.println("Average Weight (kg): " + fish1.averageWeightKg);
+        System.out.println("Is Edible: " + fish1.isEdible);
+        System.out.println();
+
+        Fish fish2 = new Fish();
+        fish2.species = "Clownfish";
+        fish2.color = "Orange with White Stripes";
+        fish2.habitat = "Saltwater";
+        fish2.averageLengthCm = 11.0;
+        fish2.averageWeightKg = 0.05;
+        fish2.isEdible = false;
+        System.out.println("Species: " + fish2.species);
+        System.out.println("Color: " + fish2.color);
+        System.out.println("Habitat: " + fish2.habitat);
+        System.out.println("Average Length (cm): " + fish2.averageLengthCm);
+        System.out.println("Average Weight (kg): " + fish2.averageWeightKg);
+        System.out.println("Is Edible: " + fish2.isEdible);
+        System.out.println();
+
+        Fish fish3 = new Fish();
+        fish3.species = "Salmon";
+        fish3.color = "Silver";
+        fish3.habitat = "Saltwater (migrates to Freshwater)";
+        fish3.averageLengthCm = 70.0;
+        fish3.averageWeightKg = 4.0;
+        fish3.isEdible = true;
+        System.out.println("Species: " + fish3.species);
+        System.out.println("Color: " + fish3.color);
+        System.out.println("Habitat: " + fish3.habitat);
+        System.out.println("Average Length (cm): " + fish3.averageLengthCm);
+        System.out.println("Average Weight (kg): " + fish3.averageWeightKg);
+        System.out.println("Is Edible: " + fish3.isEdible);
+        System.out.println();
+
+        Fish fish4 = new Fish();
+        fish4.species = "Tuna";
+        fish4.color = "Metallic Blue/Silver";
+        fish4.habitat = "Saltwater";
+        fish4.averageLengthCm = 200.0;
+        fish4.averageWeightKg = 100.0;
+        fish4.isEdible = true;
+        System.out.println("Species: " + fish4.species);
+        System.out.println("Color: " + fish4.color);
+        System.out.println("Habitat: " + fish4.habitat);
+        System.out.println("Average Length (cm): " + fish4.averageLengthCm);
+        System.out.println("Average Weight (kg): " + fish4.averageWeightKg);
+        System.out.println("Is Edible: " + fish4.isEdible);
+        System.out.println();
+
+        Fish fish5 = new Fish();
+        fish5.species = "Guppy";
+        fish5.color = "Multi-colored";
+        fish5.habitat = "Freshwater";
+        fish5.averageLengthCm = 4.0;
+        fish5.averageWeightKg = 0.005;
+        fish5.isEdible = false;
+        System.out.println("Species: " + fish5.species);
+        System.out.println("Color: " + fish5.color);
+        System.out.println("Habitat: " + fish5.habitat);
+        System.out.println("Average Length (cm): " + fish5.averageLengthCm);
+        System.out.println("Average Weight (kg): " + fish5.averageWeightKg);
+        System.out.println("Is Edible: " + fish5.isEdible);
+        System.out.println();
+
+        Fish fish6 = new Fish();
+        fish6.species = "Piranha";
+        fish6.color = "Silver/Grey";
+        fish6.habitat = "Freshwater";
+        fish6.averageLengthCm = 25.0;
+        fish6.averageWeightKg = 0.5;
+        fish6.isEdible = false; // Though some eat them, generally not for consumption
+        System.out.println("Species: " + fish6.species);
+        System.out.println("Color: " + fish6.color);
+        System.out.println("Habitat: " + fish6.habitat);
+        System.out.println("Average Length (cm): " + fish6.averageLengthCm);
+        System.out.println("Average Weight (kg): " + fish6.averageWeightKg);
+        System.out.println("Is Edible: " + fish6.isEdible);
+        System.out.println();
+
+        Fish fish7 = new Fish();
+        fish7.species = "Betta Fish";
+        fish7.color = "Blue/Red";
+        fish7.habitat = "Freshwater";
+        fish7.averageLengthCm = 7.0;
+        fish7.averageWeightKg = 0.01;
+        fish7.isEdible = false;
+        System.out.println("Species: " + fish7.species);
+        System.out.println("Color: " + fish7.color);
+        System.out.println("Habitat: " + fish7.habitat);
+        System.out.println("Average Length (cm): " + fish7.averageLengthCm);
+        System.out.println("Average Weight (kg): " + fish7.averageWeightKg);
+        System.out.println("Is Edible: " + fish7.isEdible);
+        System.out.println();
+
+        Fish fish8 = new Fish();
+        fish8.species = "Mackerel";
+        fish8.color = "Blue-Green with Stripes";
+        fish8.habitat = "Saltwater";
+        fish8.averageLengthCm = 50.0;
+        fish8.averageWeightKg = 1.0;
+        fish8.isEdible = true;
+        System.out.println("Species: " + fish8.species);
+        System.out.println("Color: " + fish8.color);
+        System.out.println("Habitat: " + fish8.habitat);
+        System.out.println("Average Length (cm): " + fish8.averageLengthCm);
+        System.out.println("Average Weight (kg): " + fish8.averageWeightKg);
+        System.out.println("Is Edible: " + fish8.isEdible);
+        System.out.println();
+
+        Fish fish9 = new Fish();
+        fish9.species = "Catfish";
+        fish9.color = "Grey/Brown";
+        fish9.habitat = "Freshwater";
+        fish9.averageLengthCm = 60.0;
+        fish9.averageWeightKg = 2.5;
+        fish9.isEdible = true;
+        System.out.println("Species: " + fish9.species);
+        System.out.println("Color: " + fish9.color);
+        System.out.println("Habitat: " + fish9.habitat);
+        System.out.println("Average Length (cm): " + fish9.averageLengthCm);
+        System.out.println("Average Weight (kg): " + fish9.averageWeightKg);
+        System.out.println("Is Edible: " + fish9.isEdible);
+        System.out.println();
+
+        Fish fish10 = new Fish();
+        fish10.species = "Shark (Great White)";
+        fish10.color = "Grey/White";
+        fish10.habitat = "Saltwater";
+        fish10.averageLengthCm = 450.0;
+        fish10.averageWeightKg = 1000.0;
+        fish10.isEdible = false; // Protected species
+        System.out.println("Species: " + fish10.species);
+        System.out.println("Color: " + fish10.color);
+        System.out.println("Habitat: " + fish10.habitat);
+        System.out.println("Average Length (cm): " + fish10.averageLengthCm);
+        System.out.println("Average Weight (kg): " + fish10.averageWeightKg);
+        System.out.println("Is Edible: " + fish10.isEdible);
+        System.out.println();
+
+        Fish fish11 = new Fish();
+        fish11.species = "Dory (Blue Tang)";
+        fish11.color = "Blue with Yellow Tail";
+        fish11.habitat = "Saltwater";
+        fish11.averageLengthCm = 30.0;
+        fish11.averageWeightKg = 0.3;
+        fish11.isEdible = false;
+        System.out.println("Species: " + fish11.species);
+        System.out.println("Color: " + fish11.color);
+        System.out.println("Habitat: " + fish11.habitat);
+        System.out.println("Average Length (cm): " + fish11.averageLengthCm);
+        System.out.println("Average Weight (kg): " + fish11.averageWeightKg);
+        System.out.println("Is Edible: " + fish11.isEdible);
+        System.out.println();
+
+        Fish fish12 = new Fish();
+        fish12.species = "Angelfish";
+        fish12.color = "Silver with Black Stripes";
+        fish12.habitat = "Freshwater";
+        fish12.averageLengthCm = 15.0;
+        fish12.averageWeightKg = 0.08;
+        fish12.isEdible = false;
+        System.out.println("Species: " + fish12.species);
+        System.out.println("Color: " + fish12.color);
+        System.out.println("Habitat: " + fish12.habitat);
+        System.out.println("Average Length (cm): " + fish12.averageLengthCm);
+        System.out.println("Average Weight (kg): " + fish12.averageWeightKg);
+        System.out.println("Is Edible: " + fish12.isEdible);
+        System.out.println();
+
+        Fish fish13 = new Fish();
+        fish13.species = "Cod";
+        fish13.color = "Brown/Green";
+        fish13.habitat = "Saltwater";
+        fish13.averageLengthCm = 90.0;
+        fish13.averageWeightKg = 5.0;
+        fish13.isEdible = true;
+        System.out.println("Species: " + fish13.species);
+        System.out.println("Color: " + fish13.color);
+        System.out.println("Habitat: " + fish13.habitat);
+        System.out.println("Average Length (cm): " + fish13.averageLengthCm);
+        System.out.println("Average Weight (kg): " + fish13.averageWeightKg);
+        System.out.println("Is Edible: " + fish13.isEdible);
+        System.out.println();
+
+        Fish fish14 = new Fish();
+        fish14.species = "Mahi-Mahi";
+        fish14.color = "Gold/Blue/Green";
+        fish14.habitat = "Saltwater";
+        fish14.averageLengthCm = 120.0;
+        fish14.averageWeightKg = 15.0;
+        fish14.isEdible = true;
+        System.out.println("Species: " + fish14.species);
+        System.out.println("Color: " + fish14.color);
+        System.out.println("Habitat: " + fish14.habitat);
+        System.out.println("Average Length (cm): " + fish14.averageLengthCm);
+        System.out.println("Average Weight (kg): " + fish14.averageWeightKg);
+        System.out.println("Is Edible: " + fish14.isEdible);
+        System.out.println();
+
+        Fish fish15 = new Fish();
+        fish15.species = "Discus";
+        fish15.color = "Various (Red, Blue, Green)";
+        fish15.habitat = "Freshwater";
+        fish15.averageLengthCm = 20.0;
+        fish15.averageWeightKg = 0.2;
+        fish15.isEdible = false;
+        System.out.println("Species: " + fish15.species);
+        System.out.println("Color: " + fish15.color);
+        System.out.println("Habitat: " + fish15.habitat);
+        System.out.println("Average Length (cm): " + fish15.averageLengthCm);
+        System.out.println("Average Weight (kg): " + fish15.averageWeightKg);
+        System.out.println("Is Edible: " + fish15.isEdible);
+        System.out.println();
+
+        Fish fish16 = new Fish();
+        fish16.species = "Eel";
+        fish16.color = "Dark Green/Brown";
+        fish16.habitat = "Brackish";
+        fish16.averageLengthCm = 100.0;
+        fish16.averageWeightKg = 1.5;
+        fish16.isEdible = true;
+        System.out.println("Species: " + fish16.species);
+        System.out.println("Color: " + fish16.color);
+        System.out.println("Habitat: " + fish16.habitat);
+        System.out.println("Average Length (cm): " + fish16.averageLengthCm);
+        System.out.println("Average Weight (kg): " + fish16.averageWeightKg);
+        System.out.println("Is Edible: " + fish16.isEdible);
+        System.out.println();
+
+        Fish fish17 = new Fish();
+        fish17.species = "Stingray";
+        fish17.color = "Sandy Brown";
+        fish17.habitat = "Saltwater";
+        fish17.averageLengthCm = 150.0;
+        fish17.averageWeightKg = 20.0;
+        fish17.isEdible = false; // Generally not consumed
+        System.out.println("Species: " + fish17.species);
+        System.out.println("Color: " + fish17.color);
+        System.out.println("Habitat: " + fish17.habitat);
+        System.out.println("Average Length (cm): " + fish17.averageLengthCm);
+        System.out.println("Average Weight (kg): " + fish17.averageWeightKg);
+        System.out.println("Is Edible: " + fish17.isEdible);
+        System.out.println();
+
+        Fish fish18 = new Fish();
+        fish18.species = "Pufferfish";
+        fish18.color = "Green/Brown with Spots";
+        fish18.habitat = "Saltwater";
+        fish18.averageLengthCm = 30.0;
+        fish18.averageWeightKg = 0.4;
+        fish18.isEdible = false; // Toxic
+        System.out.println("Species: " + fish18.species);
+        System.out.println("Color: " + fish18.color);
+        System.out.println("Habitat: " + fish18.habitat);
+        System.out.println("Average Length (cm): " + fish18.averageLengthCm);
+        System.out.println("Average Weight (kg): " + fish18.averageWeightKg);
+        System.out.println("Is Edible: " + fish18.isEdible);
+        System.out.println();
+
+        Fish fish19 = new Fish();
+        fish19.species = "Swordfish";
+        fish19.color = "Dark Brown/Black";
+        fish19.habitat = "Saltwater";
+        fish19.averageLengthCm = 300.0;
+        fish19.averageWeightKg = 150.0;
+        fish19.isEdible = true;
+        System.out.println("Species: " + fish19.species);
+        System.out.println("Color: " + fish19.color);
+        System.out.println("Habitat: " + fish19.habitat);
+        System.out.println("Average Length (cm): " + fish19.averageLengthCm);
+        System.out.println("Average Weight (kg): " + fish19.averageWeightKg);
+        System.out.println("Is Edible: " + fish19.isEdible);
+        System.out.println();
+
+        Fish fish20 = new Fish();
+        fish20.species = "Trout";
+        fish20.color = "Spotted Green/Brown";
+        fish20.habitat = "Freshwater";
+        fish20.averageLengthCm = 40.0;
+        fish20.averageWeightKg = 0.8;
+        fish20.isEdible = true;
+        System.out.println("Species: " + fish20.species);
+        System.out.println("Color: " + fish20.color);
+        System.out.println("Habitat: " + fish20.habitat);
+        System.out.println("Average Length (cm): " + fish20.averageLengthCm);
+        System.out.println("Average Weight (kg): " + fish20.averageWeightKg);
+        System.out.println("Is Edible: " + fish20.isEdible);
+        System.out.println();
+
+        System.out.println("Main Ended - Fish Data Display Complete");
+    }
+}
